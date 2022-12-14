@@ -1,0 +1,179 @@
+body {
+    width: 100%;
+    color: white;
+    font-family: calibri;
+    background: linear-gradient(rgb(179, 178, 178), rgb(17, 17, 17));
+}
+
+header {
+    position: relative;
+}
+
+main {
+    width: 100%;
+    background: url(../imagens-relatorio/black-bg.jpg);
+    background-size: 100% 100%;
+}
+
+.posicRelatorio {
+    padding-top: 5px;
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 1200px;
+}
+
+.linha {
+    font-size: 20px;
+}
+
+.resultados {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    font-weight: 300;
+    display: block;
+    width: 500px;
+    height: 80%;
+    background: url(../imagens-relatorio/bg-relatorio.jpg);
+    border-radius: 10px;
+    margin-top: 22%;
+}
+
+.tituloPesq {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.tituloRel {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+input {
+    margin-top: 30px;
+    margin-left: 20px;
+    background: rgba(215, 215, 215, 0.763);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 7px;
+    color: rgb(0, 0, 0);
+
+}
+
+input:hover {
+    color: black;
+    background: yellow;
+}
+
+#inData {
+    margin: 0;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: rgba(70, 64, 49, 0);
+    width: 35px;
+    margin-bottom: 40px;
+    padding: 0;
+    color: aliceblue;
+    font-size: 17px;
+    border-radius: 0;
+}
+
+pre {
+    font-size: 21px;
+}
+
+strong {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (max-width:480px) {
+
+    .caixa,
+    .banner {
+        width: auto;
+    }
+
+    .logo,
+    header {
+        width: 256%;
+        height: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .titulo-secundario {
+        font-size: 1.5em;
+    }
+
+
+    .header-ancora {
+        display: flex;
+        justify-content: center;
+    }
+
+    .servicos {
+        width: 256%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .fundo-localizacao {
+        width: 256%;
+    }
+
+    .ancor-menu {
+        font-size: 32px;
+    }
+
+    .tamanho-logo {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .resultados {
+        margin: 0 30px;
+        width: 30%;
+    }
+
+    .busca {
+        margin: 0 30px;
+        width: 30%;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .header-ancora {
+        width: 50px;
+        margin: 0 0;
+        padding: 0 0;
+    }
+
+    nav a {
+        margin: 0 0;
+        width: 2px;
+        padding: 0 0;
+        border: none;
+    }
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Clean Wash | Agendamento </title>
+    <link rel="stylesheet" href="stylesheet/reset.css">
+    <link rel="stylesheet" href="stylesheet/style-geral.css">
+    <link rel="stylesheet" href="stylesheet/style-tabela.css">
+    <link rel="shortcut icon" href="imagens-geral/Lg-Att-2.0.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <div class="caixa">
+            <h1>
+                <div class="logo">
+                    <a href="index.html"> <img src="imagens-geral/Lg Att 2.0.svg" class="tamanho-logo"> </a>
+                </div>
+            </h1>
+            <nav>
+                <ul>
+                    <div class="header-ancora">
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="agendamentos.html"> Agenda </a></li>
+                        <li><a href="index.html#local"> Localização </a></li>
+                        <li><a href="servicos.html"> Serviços </a></li>
+                        <li><a href="contato.html"> Contato </a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="corFundoDegrade">
+            <div class="Agendamento">
+                <div class="box-shadowAgem">
+                    <h1> CONSULTE O AGENDAMENTO DO MÊS </h1>
+                </div>
+
+                <form class="escoServicos">
+                    <h2>Qual tipo de veiculo deseja consultar? </h2>
+
+                    <input type="radio" name="tipoLavagem" value="Lavagem interna" id="rdLavIntena" required>
+                    <label for="rdLavIntena">Veículo Pessoal</label>
+
+                    <input type="radio" name="tipoLavagem" value="Lavagem externa" id="rdLavExterna" required>
+                    <label for="rdLavExterna">Veículo Comercial</label>
+
+                    <input type="radio" name="tipoLavagem" value="Todos Veiculos" id="rdTodosVeiculos" required>
+                    <label for="rdTodosVeiculos">Todos os Veículos</label>
+
+                    <p> <input type="button" value="Consultar" class="btAGENDAR" id="btAGENDAR" return false> </p>
+                    <p id="outSaidaFalse"></p>
+                    <p id="outSaidaTrue"></p>
+                </form>
+
+            </div>
+        </section>
+
+
+        <section id="resultado" class="table">    <!-- Section para Inserimento da Tabela Via Java Script -->
+
+        </section>
+
+        <p id="outSaida"> </p>
+
+    </main>
+    <footer>
+        <img src="imagens-geral/Lg Att 2.0.svg">
+        <p class="copyright"> &copy; Copyright Clean Wash </p>
+    </footer>
+</body>
+<script src="/js/interface.js" type="module"></script>
+
+</html>

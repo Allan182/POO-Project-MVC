@@ -1,0 +1,15 @@
+
+{
+  "name": "aplicacao_lavaJato",
+  "version": "1.0.0",
+  "description": "Projeto do Lava Jato da disciplina Programação Orientada a Objetos I",
+  "main": "teste.js",
+  "scripts": {
+    "start": "node teste.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alunos do Brabo",
+  "license": "ISC",
+  "type": "module"
+}
+

@@ -1,0 +1,263 @@
+/* Geral */
+body {
+
+	background-color: rgb(30, 27, 22);
+	font-family: calibri;
+
+}
+
+header {
+	position: relative;
+}
+label {
+	cursor: pointer;
+	padding: 3.5px;
+}
+
+h1 {
+	color: rgba(224, 135, 19, 0.877);
+	font-size: 35px;
+
+
+}
+
+h2 {
+	color: #c1c2ba;
+	font-size: 25px;
+	margin: 40px;
+}
+
+input {
+	margin-right: 40px;
+
+}
+
+p {
+	color: #eeefe7;
+}
+
+/* Agendamento */
+section {
+	width: 100%;
+	background-color: rgb(30, 27, 22);
+}
+
+.Agendamento {
+	position: absolute;
+	text-align: center;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 80px;
+	width: 95%;
+	height: 100%;
+	font-size: 17px;
+	color: rgba(224, 135, 19, 0.877);
+}
+
+.corFundoDegrade {
+	margin-top: 0;
+	height: 550px;
+	background: linear-gradient(rgb(60, 96, 143), rgb(30, 27, 22));
+}
+
+.escoServicos {
+	margin-top: 70px;
+	padding-top: 15px;
+	height: 300px;
+	border: 2px solid rgb(30, 29, 36);
+	background-color: rgb(15, 15, 15);
+	border-radius: 7px;
+	box-shadow: -5px 5px 5px rgb(8, 5, 5);
+}
+
+div p a {
+	color: #a5a5a0;
+	font-size: 20px;
+}
+
+input[type=radio] {
+	all: unset;
+	margin: 0;
+	margin-left: 8px;
+	color: #b1c916
+}
+
+input[type=radio]:checked+label {
+
+	padding: 3.5px;
+	transition: 0.5s;
+	border: 0.1px solid rgba(255, 255, 0, 0.823);
+	border-radius: 5px;
+	color: #ddff00;
+	background-color: rgba(255, 255, 0, 0.041);
+	
+}
+
+.nomeCompl {
+	border: none;
+	border-bottom: 2px solid rgb(137, 135, 135);
+	background-color: rgb(15, 15, 15);
+	width: 20%;
+	color: rgb(137, 135, 135);
+
+}
+
+.data {
+	border: none;
+	border-bottom: 2px solid rgb(137, 135, 135);
+	background-color: rgb(15, 15, 15);
+	width: 14%;
+	color: rgb(137, 135, 135);
+}
+
+.btAGENDAR {
+	cursor: pointer;
+	font-size: 20px;
+	padding: 5px;
+	background-color: rgba(224, 135, 19, 0.877);
+	margin-top: 60px;
+	width: 50%;
+	border-radius: 15px;
+	height: 35px;
+	border: 2px solid rgb(30, 29, 36);
+}
+
+.box-shadowAgem {
+	border: 2px solid rgb(30, 29, 36);
+	background-color: rgb(15, 15, 15);
+	border-radius: 7px;
+	box-shadow: -5px 5px 5px rgb(8, 5, 5);
+}
+
+#outSaidaFalse {
+	display: inline-block;
+	margin: 0;
+	margin-top: 21px;
+	color: red;
+	width: 40%;
+}
+
+#outSaidaTrue {
+	margin: 0;
+	margin-top: 21px;
+	color: rgb(0, 255, 0);
+	font-size: 25px;
+}
+
+/* Tabela */
+
+
+
+
+table {
+	margin-left: 7%;
+	margin-bottom: 30px;
+	width: 85%;
+	box-shadow: -15px 15px 10px rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-radius: 4px;
+	position: relative;
+}
+
+th,
+td {
+	width: 6px;
+	height: 55px;
+	border: 0.5px solid rgb(68, 69, 69);
+	max-width: 5.5px;
+	margin: 0;
+}
+
+.thead {
+	background-color: rgb(30, 29, 36);
+	color: rgb(223, 217, 217);
+	border: 0ex;
+}
+.cabecalho{
+	text-align: center;
+	font-size: 20px;
+}
+.vejaHora {
+	position: sticky;
+	top: 0;
+	width: auto;
+	background-color: rgb(30, 29, 36);
+	list-style-type: none;
+}
+
+th {
+	font-size: 12px;
+	max-width: 6px;
+}
+
+.corAzul {
+	background-color: rgb(76, 136, 169);
+	text-align: center;
+}
+
+.cor {
+	background-color: rgb(178, 100, 12);
+	color: rgb(223, 217, 217);
+	font: bold;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+td pre {
+	width: 100%;
+	font-size: 18px;
+}
+
+td pre:hover {
+	position: absolute;
+	padding: 5px;
+	padding-top: 2.5px;
+	width: 150px;
+	height: 25px;
+	font-size: 10px;
+	box-shadow: -4px 4px 10px black;
+	white-space: initial;
+	border-radius: 7px;
+	transform: scale(2, 2);
+	background-color: rgb(81, 48, 11);
+}
+
+.tamanho {
+	font-size: 20px;
+}
+
+@media screen and (max-width:480px) {
+
+	th {
+		font-size: 10px;
+	}
+
+	header {
+		height: 200px;
+		text-align: center;
+		width: 290%;
+	}
+
+	ul {
+		margin-left: 10px;
+		margin-top: 50px;
+		position: sticky;
+	}
+
+	.vejaHora {
+		background-color: rgba(240, 248, 255, 0);
+		border: none;
+		margin-top: 16px;
+		transform: rotate(-90deg)
+	}
+
+	table {
+		width: 275%;
+	}
+
+	footer {
+		width: 290%;
+	}
+}

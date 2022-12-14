@@ -1,0 +1,133 @@
+
+
+/* Cabeçalho --------------------------------------*/
+
+main{
+	background-color: rgb(235, 235, 235);
+}
+
+header {
+	position: sticky;
+	top: 0;
+	width: auto;
+	height: 100px;
+	background: #030303;
+	padding-top: 20px;
+	border-bottom: 0.1px solid rgba(85, 85, 85, 0.116);
+	z-index: 3;
+}
+
+.caixa {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 50px
+}
+
+nav {
+	position: absolute;
+	top: 45px;
+	right: 100px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	margin-right: 25px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	border: 5px solid rgba(255, 255, 0, 0);
+	border-radius: 5px;
+}
+
+nav a:hover {
+	padding: 4.5px;
+	margin-right: 25px;
+	transition: 0.5s;
+	border: 0.1px solid rgba(255, 255, 0, 0.823);
+	border-radius: 5px;
+	color: #ddff00;
+	background-color: rgba(255, 255, 0, 0.041);
+
+}
+
+.tamanho-logo {
+	width: 200px;
+	height: 80px;
+	margin-left: 5%;
+
+}
+
+
+/* Seletores do corpo --------------------------------------*/
+
+/* Seletores do rodapé --------------------------------------*/
+
+footer {
+	position: absolute;
+	width: 100%;
+	margin-top: -3.5px;
+	text-align: center;
+	background: url("../imagens-geral/bg.jpg");
+	padding: 40px 0;
+
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0 0;
+}
+
+@media screen and (max-width:480px){
+	 .caixa,  .banner {
+		width: auto;
+	}
+	.logo, header  {
+		width:100%;
+	}
+	h1{
+		text-align: center;
+	}
+	nav{
+		position: static;
+	}
+	.titulo-secundario {
+		font-size: 1.5em;
+	}	
+	header{
+		width: 256%;
+		height: 100%;
+	}
+	
+	.header-ancora{
+		display: flex;
+		justify-content: center;
+	}
+
+	.servicos{
+		width: 256%;
+	}
+
+	footer{
+		width: 100%;
+	}
+	.fundo-localizacao{
+		width: 256%;
+	}
+
+	.ancor-menu{
+		font-size: 32px;
+	}
+	.tamanho-logo{
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	
+
+}
