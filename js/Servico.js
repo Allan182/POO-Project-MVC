@@ -9,7 +9,7 @@ import { Pessoal } from './VeiculoPessoal.js';
 import { Comercial } from './VeiculoComercial.js';
 
 export class Servico {
-
+ 
     #data;
     #descricao;
     #veiculo;

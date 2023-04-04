@@ -15,7 +15,7 @@ export class Pessoal extends Veiculo {
        super(proprietario, placa, marca);
        this.qtdPortas = qtdPortas;
    }
-
+ 
    get qtdPortas() {
        return this.#qtdPortas;
    }

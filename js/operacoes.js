@@ -39,7 +39,7 @@ export function criarTableFornecedoresHtml(vetorObjetos) {
             td.classList.add('cabecalho')
 
             tr.appendChild(td)
-
+ 
         }
         thead.appendChild(tr);
         table.appendChild(thead);

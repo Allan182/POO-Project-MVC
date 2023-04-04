@@ -19,7 +19,7 @@ export var vetCliente = [
     new Cliente("Anderson", "163.321.444-12", "(27)92287-9940"),
     new Cliente("José", "122.441.214-55", "(27)93321-8820")
 ];
-
+ 
 
 export var vetVeiculoComercial = [
     new Comercial(vetCliente[0], "PPK1020", "FORD", 4),

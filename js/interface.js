@@ -7,7 +7,7 @@
 
 import { criarTableFornecedoresHtml, filtrarServicos } from './operacoes.js';
 import { vetServicos } from './vetorObjetos.js';
-
+ 
 var veicPessoal = document.getElementById("rdLavIntena");
 var veicComercial = document.getElementById("rdLavExterna");
 var button = document.getElementById("btAGENDAR");

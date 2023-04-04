@@ -13,7 +13,7 @@ export class Veiculo {
     #proprietario;
     #placa;
     #marca;
-
+ 
     constructor(proprietario, placa, marca) {
         this.#placa = placa;
         this.marca = marca;

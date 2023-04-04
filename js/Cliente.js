@@ -4,7 +4,7 @@
    Descrição: Criação de Classe Cliente para associação com objeto Veiculo; */   
 
 export class Cliente {
-
+ 
     #nome;
     #cpf;
     #telefone;

@@ -14,7 +14,7 @@ export class Comercial extends Veiculo {
         super(proprietario, placa, marca);
         this.qtdAssentos = qtdAssentos;
     }
-
+ 
     set qtdAssentos(qtdAssentos) {
         if (qtdAssentos != undefined && qtdAssentos > 0) {
             this.#qtdAssentos = qtdAssentos;

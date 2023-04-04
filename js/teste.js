@@ -11,7 +11,7 @@ import { Servico } from "./Servico.js";
 import {
     vetVeiculoComercial, vetCliente, vetVeiculoPessoal, vetServicos
 } from './vetorObjetos.js';
-
+ 
 
 /*const veiculoPessoal = new Pessoal("Abner", "2030", "FORD", 40);
 const abner = new Servico("10/20", "Abnelso", veiculoPessoal)
